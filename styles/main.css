@@ -1,0 +1,132 @@
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main {
+  width: 100%;
+  /* background-color: green; */
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.title-container {
+  width: 100%;
+  position: absolute;
+  /* top: 100px; */
+  top: 5vw;
+}
+
+.main-title {
+  font-size: 4vw;
+  font-weight: bolder;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #fae608;
+  text-shadow: 0px 9px 8px black, -12px -6px 12px rgba(255, 255, 255, 0.17);
+}
+
+
+.paragraph-first-container {
+  max-width: 63%;
+  background: linear-gradient(45deg, #d1270f, #fc4305);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 70px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  position: relative;
+  margin-bottom: 50px;
+  /* margin-top: 900px; */
+  margin-top: 48vw;
+}
+
+
+.paragraph-second-container {
+  max-width: 63%;
+  background: linear-gradient(180deg, #f44e0d 50%, #ff6e06);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 70px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  position: relative;
+}
+
+.paragraph-first-container p {
+  color: black;
+  /* font-size: 25px; */
+  font-size: 1.3vw;
+  font-weight: bold;
+  width: 1000px;
+}
+
+.paragraph-second-container p {
+  color: black;
+  font-size: 1.3vw;
+  font-weight: bold;
+  width: 1000px;
+}
+.paragraph-first-container img {
+  width: 7vw;
+  border-radius: 90%;
+  position: absolute;
+  left: -3.5vw;
+}
+
+.paragraph-second-container img {
+  width: 7vw;
+  border-radius: 90%;
+  position: absolute;
+  left: -3.5vw;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25vw;
+}
+
+.video-container h3 {
+  /* background-color: blue; */
+  color: #e2eaec;
+  text-shadow: 0px 9px 8px black;
+  /* font-size: 60px; */
+  font-size: 3.3vw;
+  font-weight: bolder;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  letter-spacing: -1px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.video-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1d1d1d;
+  width: 50vw;
+  height: 28vw;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 75px;
+}
+
+.video-background iframe {
+  border-radius: 4px;
+}

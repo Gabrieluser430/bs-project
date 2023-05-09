@@ -6,7 +6,6 @@
 
 .main {
   width: 100%;
-  /* background-color: green; */
   height: 320px;
   display: flex;
   flex-direction: column;
@@ -18,7 +17,6 @@
 .title-container {
   width: 100%;
   position: absolute;
-  /* top: 100px; */
   top: 5vw;
 }
 
@@ -43,7 +41,6 @@
   border-radius: 6px;
   position: relative;
   margin-bottom: 50px;
-  /* margin-top: 900px; */
   margin-top: 48vw;
 }
 
@@ -62,7 +59,6 @@
 
 .paragraph-first-container p {
   color: black;
-  /* font-size: 25px; */
   font-size: 1.3vw;
   font-weight: bold;
   width: 1000px;
@@ -97,10 +93,8 @@
 }
 
 .video-container h3 {
-  /* background-color: blue; */
   color: #e2eaec;
   text-shadow: 0px 9px 8px black;
-  /* font-size: 60px; */
   font-size: 3.3vw;
   font-weight: bolder;
   margin-top: 150px;

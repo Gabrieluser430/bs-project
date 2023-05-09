@@ -1,6 +1,5 @@
 .search-container {
   width: 100%;
-  /* background-color: green; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,7 +10,7 @@
 .search-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:center;
   position: relative;
   width: 70vw;
   min-height: 2rem;
@@ -27,7 +26,6 @@
   font-size: 1.5vw;
   border: none;
   text-indent: 35px;
-  /* background-color: blue; */
 }
 
 
@@ -41,7 +39,6 @@
   left: 0px;
   bottom: 0px;
   width: 80px;
-  /* background-color: red; */
   border: none;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;

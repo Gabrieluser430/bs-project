@@ -1,10 +1,4 @@
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.main {
+ .main {
   width: 100%;
   height: 320px;
   display: flex;
@@ -30,7 +24,7 @@
 }
 
 
-.paragraph-first-container {
+.brawler-info-1 {
   max-width: 63%;
   background: linear-gradient(45deg, #d1270f, #fc4305);
   display: flex;
@@ -45,7 +39,7 @@
 }
 
 
-.paragraph-second-container {
+.brawler-info-2 {
   max-width: 63%;
   background: linear-gradient(180deg, #f44e0d 50%, #ff6e06);
   display: flex;
@@ -57,27 +51,27 @@
   position: relative;
 }
 
-.paragraph-first-container p {
+.brawler-info-1 p {
   color: black;
   font-size: 1.3vw;
   font-weight: bold;
   width: 1000px;
 }
 
-.paragraph-second-container p {
+.brawler-info-2 p {
   color: black;
   font-size: 1.3vw;
   font-weight: bold;
   width: 1000px;
 }
-.paragraph-first-container img {
+.brawler-info-1 img {
   width: 7vw;
   border-radius: 90%;
   position: absolute;
   left: -3.5vw;
 }
 
-.paragraph-second-container img {
+.brawler-info-2 img {
   width: 7vw;
   border-radius: 90%;
   position: absolute;

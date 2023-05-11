@@ -70,7 +70,7 @@
   }
   
   
-  .brawler-second-container {
+  .brawler-info-2 {
     max-width: 63%;
     background: linear-gradient(180deg, #f44e0d 50%, #ff6e06);
     display: flex;
@@ -162,3 +162,4 @@
     border-radius: 75px;
   }
 }
+
